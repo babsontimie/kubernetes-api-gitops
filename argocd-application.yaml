@@ -1,3 +1,4 @@
+
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -16,8 +17,9 @@ spec:
     automated:
       prune: true
       selfHeal: true
-   syncOptions:
-   - CreateNamespace=true
+    syncOptions:
+      - CreateNamespace=true
+
 
 
 # kubectl create secret docker-registry ghcr-secret --docker-server=ghcr.io --docker-username=<babsontimie> --docker-password=<Coderepo-password> --namespace=default	
