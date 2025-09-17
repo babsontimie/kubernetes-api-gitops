@@ -17,7 +17,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: nginx-api
-          image: ghcr.io/babsontimie/nginx:latest
+          image: ghcr.io/babsontimie/kubernetes-cicd-tutorial:2e8b9b276b0dc168df3c5602146c9149cfdd64f4
           ports:
             - containerPort: 80
           resources:
