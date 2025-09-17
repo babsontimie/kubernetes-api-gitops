@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/babsontimie/kubernetes-cicd-tutorial.git
     targetRevision: HEAD
-    path: .
+    path: gitops
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
